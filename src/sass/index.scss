@@ -1,0 +1,13 @@
+@mixin transform($bc) {
+    transform: $bc;
+    -webkit-transform: $bc;
+    -moz-transform: $bc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+}
